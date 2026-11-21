@@ -109,8 +109,28 @@ h1 {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 1.25rem;
-  margin-top: 1.25rem;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+/* Icon links. The padding widens the tap area; the negative margin keeps
+   the icons aligned with the text column. */
+.links a {
+  display: block;
+  padding: 0.5rem;
+  margin: -0.5rem;
+  text-decoration: none;
+  transition: color 120ms ease;
+}
+
+.links a:hover { color: var(--quiet); }
+
+.links svg {
+  display: block;
+  width: 1.375rem;
+  height: 1.375rem;
+  fill: currentColor;
 }
 
 /* ---------- Section labels ---------- */

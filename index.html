@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDIT: page title and the description search engines show -->
+  <title>Justin Huang</title>
+  <meta name="description" content="Justin Huang is a computer science undergraduate at Stanford working on machine learning research and quantitative trading systems.">
+  <meta property="og:title" content="Justin Huang">
+  <meta property="og:description" content="Computer science undergraduate at Stanford working on machine learning research and quantitative trading systems.">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- ============ INTRO ============ -->
+    <header class="row intro">
+      <div class="label">
+        <!-- EDIT: replace assets/profile.svg with a square photo (e.g. assets/profile.jpg),
+             or delete this <img> for a text-only header -->
+        <img class="portrait" src="assets/profile.svg" alt="Portrait of Justin Huang" width="72" height="72">
+      </div>
+      <div class="body">
+        <h1>Justin Huang</h1>
+
+        <p>
+          I'm an undergraduate at <a href="https://www.stanford.edu/">Stanford</a> studying
+          computer science, class of 2028. My research is in machine learning: how far
+          transformers can be compressed through pruning and weight sharing, and how to
+          undo misalignment that emerges in language models after fine-tuning.
+        </p>
+        <p>
+          I also work as a quantitative developer at Solayer Labs, where I build
+          market-making and execution systems.
+        </p>
+
+        <!-- EDIT: add more links here in the same form when you have them:
+             <li><a href="https://scholar.google.com/citations?user=ID">Scholar</a></li>
+             <li><a href="assets/cv.pdf">CV</a></li> -->
+        <ul class="links">
+          <li><a href="mailto:jushuang@stanford.edu">Email</a></li>
+          <li><a href="https://github.com/JustintheButton">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/justinhuang583/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ============ RESEARCH ============ -->
+      <section class="row" aria-labelledby="research">
+        <h2 class="label" id="research">Research</h2>
+        <div class="body">
+
+          <!-- EDIT: copy one <article class="paper"> block per project, newest first.
+               When a write-up is public, wrap the title in a link and add links after the date:
+               <h3><a href="URL">Title</a></h3>
+               <p class="meta"><span>2026</span> <a href="URL">Paper</a> <a href="URL">Code</a></p> -->
+          <article class="paper">
+            <h3>Lottery Tickets in Looped Transformers</h3>
+            <p>
+              Iterative magnitude pruning and weight sharing compose: together they give
+              45&times; total model compression at near-baseline accuracy. The work includes
+              mechanistic explanations of how pruning and looping interact.
+            </p>
+            <p class="meta"><span>2026</span></p>
+          </article>
+
+          <article class="paper">
+            <h3>Reversing Emergent Misalignment Using Simple Self-Distillation</h3>
+            <p>
+              Simple self-distillation reverses emergent misalignment in a fine-tuned
+              Qwen2.5-14B model without external supervision, giving a 95% relative
+              reduction in unsafe responses.
+            </p>
+            <p class="meta"><span>2026</span></p>
+          </article>
+
+          <article class="paper">
+            <h3>Acoustic Filtration: Harnessing Ultrasound for Microplastic Filtration</h3>
+            <p>
+              An ultrasound system that blocks up to 94% of microplastics, with throughput
+              two orders of magnitude above prior work, designed with a numerical simulator
+              written from scratch in C++.
+            </p>
+            <p class="meta"><span>2023 &ndash; 2025</span></p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="row" aria-labelledby="experience">
+        <h2 class="label" id="experience">Experience</h2>
+        <div class="body">
+          <ul class="list dated">
+            <li>
+              <time>2026 &ndash; now</time>
+              <span>Quantitative developer, Solayer Labs</span>
+            </li>
+            <li>
+              <time>2025 &ndash; 2026</time>
+              <span>Chief operations officer, Khorium</span>
+            </li>
+            <li>
+              <time>2028</time>
+              <span>B.S. in Computer Science, <a href="https://www.stanford.edu/">Stanford University</a> (expected)</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ AWARDS ============ -->
+      <section class="row" aria-labelledby="awards">
+        <h2 class="label" id="awards">Awards</h2>
+        <div class="body">
+          <ul class="list dated">
+            <li>
+              <time>2021 &ndash; 2025</time>
+              <span>First place at Regeneron ISEF and the Gordon E. Moore Top Award, for the acoustic filtration research</span>
+            </li>
+            <li>
+              <time>2021 &ndash; 2023</time>
+              <span>USACO Gold Division and three-time AIME qualifier</span>
+            </li>
+            <li>
+              <time>2022 &ndash; 2024</time>
+              <span>Three-time Texas All-State violinist</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="row">
+      <div class="label"></div>
+      <!-- EDIT: update the date when you change the page -->
+      <p class="body">Updated November 2026</p>
+    </footer>
+
+  </div>
+</body>
+</html>

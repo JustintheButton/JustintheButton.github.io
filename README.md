@@ -39,14 +39,11 @@ Then open http://localhost:4173.
 
 ## Publish on GitHub Pages
 
-1. Create a public repository named `JustintheButton.github.io`.
-2. From this folder:
+1. On GitHub, create a public repository named `JustintheButton.github.io`.
+   Leave it empty: no README, licence or .gitignore.
+2. This folder is already a git repository with that remote set, so from here run:
 
    ```bash
-   git init -b main
-   git add .
-   git commit -m "Personal site"
-   git remote add origin https://github.com/JustintheButton/JustintheButton.github.io.git
    git push -u origin main
    ```
 
